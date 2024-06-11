@@ -1,0 +1,21 @@
+# enter a list of numbers separated by spaces
+num_input = input("Enter a list of numbers separated by spaces: ")
+
+# Convert the input string into a list of integers
+numbers = [int(num) for num in num_input.split()]
+
+# Initialize counters for positive and negative numbers
+positive_count = 0
+negative_count = 0
+
+# Use a for loop to iterate through the list of numbers
+for num in numbers:
+    # Check if the number is positive or negative using if-else statements
+    if num > 0:
+        positive_count += 1
+    elif num < 0:
+        negative_count += 1
+
+# Print the counts of positive and negative numbers
+print("Number of positive numbers:", positive_count)
+print("Number of negative numbers:", negative_count)

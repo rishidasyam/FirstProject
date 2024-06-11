@@ -1,0 +1,17 @@
+# enter a list of numbers separated by spaces
+num_input = input("Enter numbers separated by spaces: ")
+
+# Convert the input string into a list of integers
+numbers = [int(num) for num in num_input.split()]
+
+# Initialize a variable to store the largest number found so far
+largest_number = numbers[0]
+
+# Use a for loop to iterate through the list of numbers
+for num in numbers:
+    # Use an if-else statement to update the largest number
+    if num > largest_number:
+        largest_number = num
+
+# Print the largest number
+print("The largest number is:", largest_number)

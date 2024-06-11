@@ -1,0 +1,9 @@
+# enter a number
+number = int(input("Enter a number: "))
+
+# Use a for loop to iterate from 1 to 10
+for i in range(1, 11):
+    # Multiply the user's number by the current loop counter
+    result = number * i
+    # Print the result in the format "number x counter = result"
+    print(f"{number} x {i} = {result}")

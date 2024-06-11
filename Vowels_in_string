@@ -1,0 +1,15 @@
+# enter a string
+user_string = input("Enter a string: ")
+
+# Initialize a counter to zero
+vowel_count = 0
+
+# Iterate through each character in the string using a for loop
+for char in user_string:
+    # Use an if-else statement to check if the character is a vowel
+    if char.lower() in 'aeiou':
+        # If the character is a vowel, increment the counter
+        vowel_count += 1
+
+# Print the total count of vowels
+print("Total number of vowels:", vowel_count)

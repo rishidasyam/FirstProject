@@ -1,0 +1,12 @@
+# A list of integers
+numbers = [7, 2, 5, 1, 9, 3, 6, 4, 8]
+
+# Sort the list in ascending order
+ascending_sorted = sorted(numbers)
+
+# Sort the list in descending order
+descending_sorted = sorted(numbers, reverse=True)
+
+# Print the sorted lists
+print("Ascending order:", ascending_sorted)
+print("Descending order:", descending_sorted)
